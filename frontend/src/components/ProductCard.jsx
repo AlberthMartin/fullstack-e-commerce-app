@@ -3,7 +3,7 @@ import { useColorMode } from "./ui/color-mode"
 import { FilePenLine, OctagonX } from 'lucide-react';
 import { useProductStore } from "../store/product";
 import { Toaster, toaster } from "@/components/ui/toaster"
-import Editproduct from "./EditProduct";
+import EditProduct from "./EditProduct.jsx"
 
 
 const ProductCard = ({product}) => {
@@ -54,7 +54,7 @@ const ProductCard = ({product}) => {
         </Text>
       </Card.Body>
       <Card.Footer gap="2">
-        <Editproduct product={product}></Editproduct>
+        <EditProduct product={product}></EditProduct>
         <Button variant="outline" colorPalette={"red"} onClick={() =>handleDeleteProduct(product._id)}><OctagonX /></Button>
       </Card.Footer>
     </Card.Root>
