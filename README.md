@@ -1,4 +1,4 @@
-Fullstack MERN CRUD E-commerce admin site with modern design. Created with MongoDB, Express, React and Node. User is able to Create, Remove Update and Delete products from the site.
+Fullstack MERN CRUD E-commerce admin site with modern design. Created with MongoDB, Express, React and Node. User is able to Create, Remove Update and Delete products from the site. Also a light/dark mode button was implemented
 
 To run the app use:
 npm install
