@@ -1,6 +1,6 @@
 # Fullstack MERN E-commerce Admin Site
 
-A modern CRUD e-commerce admin site built with the MERN stack: **MongoDB, Express, React, and Node.js**.
+A modern CRUD e-commerce admin site built with the MERN stack: **MongoDB, Express, React, and Node.js**. + ChakraUI
 
 ## Features
 
@@ -52,4 +52,5 @@ Now the fullstack app is available on http://localhost:3001/ and you can see the
 - Express.js
 - React.js
 - Node.js
+- ChakraUI
 
